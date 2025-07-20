@@ -6,6 +6,8 @@ Browser-based AR implementation of MonPrime using Three.js and WebXR.
 
 This repository contains the web prototype of MonPrime, allowing players to experience the game directly in their browser without app installation.
 
+The project currently includes a minimal setup using Vite and TypeScript with Three.js and a WebXR polyfill.
+
 ## Tech Stack
 
 - **Three.js**: 3D graphics and rendering
@@ -26,7 +28,7 @@ npm run dev
 # Build for production
 npm run build
 
-# Run tests
+# Run tests (none yet)
 npm test
 ```
 
@@ -42,13 +44,8 @@ npm test
 
 ```
 src/
-├── core/          # Three.js scene setup
-├── ar/            # WebXR integration
-├── mons/          # Mon entities
-├── combat/        # Battle system
-├── ui/            # HUD and interfaces
-├── network/       # Backend communication
-└── utils/         # Shared utilities
+  main.ts          # Entry point
+index.html         # App shell
 ```
 
 ## Development

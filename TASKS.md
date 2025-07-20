@@ -1,11 +1,11 @@
 # MonPrime Web - Task List
 
 ## Setup Tasks
-- [ ] Initialize Three.js project with TypeScript
-- [ ] Set up Vite or Webpack for development
-- [ ] Configure ESLint and Prettier
-- [ ] Add WebXR polyfill for compatibility
-- [ ] Create basic project structure
+- [x] Initialize Three.js project with TypeScript
+- [x] Set up Vite or Webpack for development
+- [x] Configure ESLint and Prettier
+- [x] Add WebXR polyfill for compatibility
+- [x] Create basic project structure
 
 ## Core 3D Tasks
 - [ ] Create Three.js scene with lighting
